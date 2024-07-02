@@ -8,7 +8,7 @@ The accompanying Jupyter notebook can be [found here](https://github.com/epakhom
 
 ## The objective and the data
 
-The objective of this assignment is to compare the performance of the classifiers (dummy classifier, k-nearest neighbors, logistic regression, decision trees, and support vector machines). The dataset for this assignment could be found [here](https://archive.ics.uci.edu/dataset/222/bank+marketing).
+The objective of this project is to build a machine learning model what would correctly classify an url into two classes: 1) normal url 2) phishing url. An url can belong to only one class. The training data can be [found here](https://github.com/epakhomov/capstone/tree/main/data/dataset_full.csv).
 
 
 ## The business objective 
