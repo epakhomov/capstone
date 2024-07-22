@@ -41,8 +41,12 @@ This division can be illustrated with Figure 1.
 
 <img src="/images/url.jpg" alt="Fig.1" class="center" style="width:600px;height:auto;">
     
-
 ### EDA
+It turns out that the domain section has near zero mean variance which might indicate its less importance as can be seen on Figure 2.
+<img src="/images/01.png" alt="Fig.2" class="center" style="width:600px;height:auto;">
+
+
+
 
 ## Data Preparation
 
