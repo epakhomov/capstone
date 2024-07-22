@@ -39,7 +39,7 @@ The entire dataset was devided into the following sections:
 
 This division can be illustrated with Figure 1.
 
-<img src="/images/url.png" alt="Fig.1" class="center" style="width:600px;height:auto;">
+<img src="/images/url.jpg" alt="Fig.1" class="center" style="width:600px;height:auto;">
     
 
 ### EDA
