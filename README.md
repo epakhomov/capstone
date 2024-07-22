@@ -1,9 +1,8 @@
-# A machine learning model for phishing websites detection.
+**A machine learning model for phishing websites detection.**
 
 # Table of Contents
 <!-- TOC -->
 
-- [A machine learning model for phishing websites detection.](#a-machine-learning-model-for-phishing-websites-detection)
 - [Table of Contents](#table-of-contents)
     - [Introduction](#introduction)
     - [The objective and the data](#the-objective-and-the-data)
