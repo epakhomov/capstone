@@ -37,7 +37,9 @@ The entire dataset was devided into the following sections:
 - Dataset attributes based on URL parameters
 - Dataset attributes based on resolving URL and external services
 
-This division can be illustrated [with Figure 1.](https://github.com/epakhomov/capstone/blob/main/images/url.jpg)
+This division can be illustrated with Figure 1.
+
+<img src="/images/url.png" alt="Fig.1" class="center" style="width:600px;height:auto;">
     
 
 ### EDA
