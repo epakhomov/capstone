@@ -29,6 +29,17 @@ Despite the fact that phishing is an ancient and a very straightforward attack, 
 
 ## Data Understanding
 
+The entire dataset was devided into the following sections:
+- Dataset attributes based on URL
+- Dataset attributes based on Domain URL
+- Dataset attributes based on URL directory
+- Dataset attributes based on URL file name
+- Dataset attributes based on URL parameters
+- Dataset attributes based on resolving URL and external services
+
+This division can be illustrated [with Figure 1.](https://github.com/epakhomov/capstone/blob/main/images/url.jpg)
+    
+
 ### EDA
 
 ## Data Preparation
