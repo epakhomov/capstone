@@ -1,9 +1,6 @@
 # A machine learning model for phishing websites detection.
 
 # Table of Contents
-- [Introduction](#introduction)
-- [The objective and the data](#the-objective-and-the-data)
-    -[The business objective](#the-business-objective)
 
 ## Introduction
 
