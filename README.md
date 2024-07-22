@@ -20,7 +20,6 @@
 
 <!-- /TOC -->
 
-
 ## Introduction
 
 This README file provides a summary of findings for a Capstone project: A machine learning model for phishing websites detection.
