@@ -1,4 +1,3 @@
-<big>A machine learning model for phishing websites detection</big>
 
 # Table of Contents
 <!-- TOC -->
@@ -18,7 +17,6 @@
     - [Next steps](#next-steps)
 
 <!-- /TOC -->
-
 ## Introduction
 
 This README file provides a summary of findings for a Capstone project: A machine learning model for phishing websites detection.
