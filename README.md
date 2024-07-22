@@ -1,5 +1,9 @@
 # A machine learning model for phishing websites detection.
 
+# Table of Contents
+- [Header 1](#introduction)
+- [Header 2](#the-objective-and-the-data)
+
 ## Introduction
 
 This README file provides a summary of findings for a Capstone project: A machine learning model for phishing websites detection.
@@ -39,7 +43,7 @@ The recall scores each model can be found in Table 1.
 | Logistic| 0.916	    | 0.917     |    
 | KNN     | 0.949       | 0.933     |   
 | D. Tree | 1.0         | 0.93      |
-| SVM     | 0.93       | 0.929     |
+| SVM     | 0.93        | 0.929     |
 
 Table 1. The precision score for models with default hyperparameters.
 
