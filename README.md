@@ -1,6 +1,25 @@
 # A machine learning model for phishing websites detection.
 
 # Table of Contents
+<!-- TOC -->
+
+- [A machine learning model for phishing websites detection.](#a-machine-learning-model-for-phishing-websites-detection)
+- [Table of Contents](#table-of-contents)
+    - [Introduction](#introduction)
+    - [The objective and the data](#the-objective-and-the-data)
+        - [The business objective](#the-business-objective)
+    - [The methods](#the-methods)
+    - [Models evaluation metrics](#models-evaluation-metrics)
+    - [Data quality and data preparation highlights](#data-quality-and-data-preparation-highlights)
+    - [Models performance with the default parameters.](#models-performance-with-the-default-parameters)
+    - [Hyperparameters tuning](#hyperparameters-tuning)
+    - [Feature selection](#feature-selection)
+    - [Results and discussion](#results-and-discussion)
+        - [Precision score interpretation](#precision-score-interpretation)
+    - [Next steps](#next-steps)
+
+<!-- /TOC -->
+
 
 ## Introduction
 
