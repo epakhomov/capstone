@@ -16,6 +16,7 @@
         - [Evaluation of models with the default data](#evaluation-of-models-with-the-default-data)
         - [Comparison of models train with default data and PCA](#comparison-of-models-train-with-default-data-and-pca)
         - [Comparison of models train with default data and 46 features selected by RFE](#comparison-of-models-train-with-default-data-and-46-features-selected-by-rfe)
+        - [The best model and the best dataset](#the-best-model-and-the-best-dataset)
     - [Executive summary](#executive-summary)
     - [Next steps](#next-steps)
 
@@ -112,9 +113,17 @@ Most of the model scored worse with the PCA components as compared with default 
 
 ### Comparison of models train with default data and 46 features selected by RFE
 
-Suprisingly, all models except for KNN, performed better then the models trained with the default data (97 features)
+Surprisingly, all models except for KNN, performed better than the models trained with the default data (97 features)
 
 <img src="/images/04.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
+
+### The best model and the best dataset
+
+Overall, all models performed roughly the same across all datasets except for KNN which showed a stronger sensitivity to a number of selected features. 
+
+Random Forest and XGBoost were the top models.
+
+<img src="/images/05.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
 
 ## Executive summary
 
