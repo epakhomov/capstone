@@ -10,6 +10,7 @@
         - [EDA](#eda)
     - [Data Preparation](#data-preparation)
     - [Modeling](#modeling)
+        - [Models](#models)
         - [Models evaluation metrics](#models-evaluation-metrics)
     - [Evaluation](#evaluation)
     - [Executive summary](#executive-summary)
@@ -74,7 +75,17 @@ As we discussed above, one of the business objective is to reduce the original d
 The dataset was reduced using the following techniques:  
 -Principal Component Analysis  
 -Recursive feature elimination  
--VarianceThreshold selector  
+-VarianceThreshold selector
+
+### Models
+
+The following models were used:  
+
+-Logistic regression  
+-Decision tree  
+-KNN classifier  
+-Random Forest  
+-XGBoost  
 
 
 ### Models evaluation metrics
