@@ -122,7 +122,7 @@ Surprisingly, all models except for KNN, performed better than the models traine
 
 Overall, all models performed roughly the same across all datasets except for KNN which showed a stronger sensitivity to a number of selected features. 
 
-Random Forest and XGBoost were the top models. 
+Random Forest and XGBoost were the top models that produced the best scores on a dataset with 46 features selected by RFE.
 
 <img src="/images/05.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
