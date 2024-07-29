@@ -27,7 +27,13 @@ Despite the fact that phishing is an ancient and a very straightforward attack, 
 
 ### The business objective 
 
-The objective of this project is to build a machine learning model what would correctly classify an url into two classes: 1) normal url 2) phishing url. An url can belong to only one class. The training data can be [found here](https://github.com/epakhomov/capstone/tree/main/data/dataset_full.csv).
+There are **two business** objectives for this project:  
+1.The first objective is to build a machine learning model what would correctly classify an url into two classes: a) normal url b) phishing url. An url can belong to only one class.   
+2.The model should be realatively light so it could be deployed locally on the target machines as well. 
+
+The model would be available for security vendors who would like to add or improve phishing detecting capabilities.
+
+The training data can be [found here](https://github.com/epakhomov/capstone/tree/main/data/dataset_full.csv).
 
 ## Data Understanding
 
@@ -59,9 +65,10 @@ It turns out that the domain section has near zero mean variance which might ind
 
 ## Data Preparation
 
-The original data is relatively clean. It doesn't contain categorical variables and doesn't conain missing values, so minimum data preparation was required.
+The original data is relatively clean. It doesn't contain categorical variables and doesn't contain missing values, so minimum data preparation was required.
 
 ## Modeling
+
 
 ### Models evaluation metrics
 
