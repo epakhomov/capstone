@@ -6,11 +6,14 @@
     - [Business Understanding](#business-understanding)
         - [The business objective](#the-business-objective)
     - [Data Understanding](#data-understanding)
+        - [Data Description](#data-description)
         - [EDA](#eda)
     - [Data Preparation](#data-preparation)
     - [Modeling](#modeling)
         - [Models evaluation metrics](#models-evaluation-metrics)
     - [Evaluation](#evaluation)
+    - [Executive summary](#executive-summary)
+    - [Next steps](#next-steps)
 
 <!-- /TOC -->
 
@@ -28,6 +31,10 @@ The objective of this project is to build a machine learning model what would co
 
 ## Data Understanding
 
+### Data Description
+
+Data was acquired through the publicly available lists of phishing and legitimate websites by Grega Vrbančič and others, from which the features presented in the datasets were extracted by the authors. They published the details of data collection [here](https://www.sciencedirect.com/science/article/pii/S2352340920313202) and published the datasets on Github [here](https://github.com/GregaVrbancic/Phishing-Dataset).
+
 The entire dataset was devided into the following sections:
 - Dataset attributes based on URL
 - Dataset attributes based on Domain URL
@@ -41,14 +48,18 @@ This division can be illustrated with Figure 1.
 <img src="/images/url.jpg" alt="Fig.1" class="center" style="width:600px;height:auto;">
     
 ### EDA
+
+Due to the nature of the data and the business problem, there isn't much EDA that can be performed for this dataset. There are no business value in understanding relationships between number of question marks and number of backslashs in the data, for example. I'm providing this assessment as a certified (CISSP) domain expert with 10+ experience in cybersecurity. 
+
+With that said, it's clear that all 112 features are not required to build a model. As in a car, for example, not all car features and mechanisms have any impact on the maximum speed. Not all features of an url have any impact on the url being malicious or not.
+
 It turns out that the domain section has near zero mean variance which might indicate its less importance as can be seen on Figure 2.
 
 <img src="/images/01.png" alt="Fig.2" class="center" style="width:600px;height:auto;">
 
-
-
-
 ## Data Preparation
+
+The original data is relatively clean. It doesn't contain categorical variables and doesn't conain missing values, so minimum data preparation was required.
 
 ## Modeling
 
@@ -57,3 +68,7 @@ It turns out that the domain section has near zero mean variance which might ind
 For this problem, a false positive will be observed when a model labels a normal url as malicious. A false negative will be observed when a model labels a malicious url as normal. False negatives are more dangerous as a user will trust a malicious site. Therefore, we will be using the recall score.
 
 ## Evaluation
+
+## Executive summary
+
+## Next steps
