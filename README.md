@@ -29,7 +29,7 @@ Despite the fact that phishing is an ancient and a very straightforward attack, 
 
 There are **two business** objectives for this project:  
 1.The first objective is to build a machine learning model what would correctly classify an url into two classes: a) normal url b) phishing url. An url can belong to only one class.   
-2.The model should be realatively light so it could be deployed locally on the target machines as well. 
+2.The model should be relatively light so it could be deployed locally on the target machines as well. 
 
 The model would be available for security vendors who would like to add or improve phishing detecting capabilities.
 
@@ -68,6 +68,8 @@ It turns out that the domain section has near zero mean variance which might ind
 The original data is relatively clean. It doesn't contain categorical variables and doesn't contain missing values, so minimum data preparation was required.
 
 ## Modeling
+
+As we discussed above, one of the business objective is to reduce the original dataset while not sacraficing the accuracy of the model.
 
 
 ### Models evaluation metrics
