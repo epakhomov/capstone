@@ -132,6 +132,12 @@ SHAP values were used to calculated feature importance. The following plot depic
 
 <img src="/images/06.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
+Let's discuss top three features:  
+ 
+1.length_url (total number of characters in an url) is the feature that has the most prediction impact on the target. It has both negative and positive impact. From the shap plot, we can say that the longer url, the more chances that it is phishing which intuitevely makes sense as well.  
+2.time_domain_activation (Domain activation time in days). Phishing domains have shorter activation times which can be seen on the plot as well: lower values negatively impact prediction of class 1 (is phishing).  
+3.directory_length (total number of characters of a directory in an url) typically is correlated with the lenght of url so not surprisingly we see similar behavior of this feature.
+
 
 ## Executive summary
 
