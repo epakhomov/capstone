@@ -15,6 +15,7 @@
     - [Evaluation](#evaluation)
         - [Evaluation of models with the default data](#evaluation-of-models-with-the-default-data)
         - [Comparison of models train with default data and PCA](#comparison-of-models-train-with-default-data-and-pca)
+        - [Comparison of models train with default data and 46 features selected by RFE](#comparison-of-models-train-with-default-data-and-46-features-selected-by-rfe)
     - [Executive summary](#executive-summary)
     - [Next steps](#next-steps)
 
@@ -108,6 +109,12 @@ As you can see from the image, all models performed well, above 0.9 for both rec
 Most of the model scored worse with the PCA components as compared with default data:
 
 <img src="/images/03.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
+
+### Comparison of models train with default data and 46 features selected by RFE
+
+Suprisingly, all models except for KNN, performed better then the models trained with the default data (97 features)
+
+<img src="/images/04.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
 
 ## Executive summary
 
