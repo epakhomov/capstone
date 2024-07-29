@@ -155,3 +155,7 @@ All models performed well, achieving various scores above 0.9. Random Forest and
 Key features influencing the model included: URL length, domain activation time, and directory length, with longer URLs and shorter domain activation times being strong indicators of phishing URL.
 
 ## Next steps
+- Applying neural network models  
+- Creating a prototype to test the model  
+- Deploy model in a testing environment  
+- Expanding scope of the research to include identification of malicious API endpoints, not just URLs
