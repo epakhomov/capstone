@@ -72,9 +72,9 @@ The original data is relatively clean. It doesn't contain categorical variables 
 As we discussed above, one of the business objective is to reduce the original dataset while not sacrificing the accuracy of the model.
 
 The dataset was reduced using the following techniques:
--Principal Component Analysis
--Recursive feature elimination
--VarianceThreshold selector
+-Principal Component Analysis  
+-Recursive feature elimination  
+-VarianceThreshold selector  
 
 
 ### Models evaluation metrics
