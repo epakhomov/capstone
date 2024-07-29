@@ -14,7 +14,7 @@
         - [Models evaluation metrics](#models-evaluation-metrics)
     - [Evaluation](#evaluation)
         - [Evaluation of models with the default data](#evaluation-of-models-with-the-default-data)
-        - [Comparison of models train with default data and PCA](#comparison-of-models-train-with-default-data-and-pca)
+        - [Comparison of models trained with default data and PCA](#comparison-of-models-trained-with-default-data-and-pca)
         - [Comparison of models train with default data and 46 features selected by RFE](#comparison-of-models-train-with-default-data-and-46-features-selected-by-rfe)
         - [The best model and the best dataset](#the-best-model-and-the-best-dataset)
         - [Feature importance](#feature-importance)
@@ -107,7 +107,7 @@ As you can see from the image, all models performed well, above 0.9 for both rec
 
 <img src="/images/02.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
-### Comparison of models train with default data and PCA
+### Comparison of models trained with default data and PCA
 
 Most of the models scored worse with the PCA components as compared with default data:
 
