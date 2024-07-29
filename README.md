@@ -33,9 +33,10 @@ Despite the fact that phishing is an ancient and a very straightforward attack, 
 
 ### The business objective 
 
+
 There are **two business** objectives for this project:  
-1.The first objective is to build a machine learning model what would correctly classify an url into two classes: a) normal url b) phishing url. An url can belong to only one class.   
-2.The model should be relatively light so it could be deployed locally on target machines as well. 
+1. The first objective is to build a machine learning model what would correctly classify an url into two classes: a) normal url b) phishing url. An url can belong to only one class.   
+2. The model should be relatively light so it could be deployed locally on target machines as well. 
 
 The model would be available for security vendors who would like to add or improve phishing detecting capabilities.
 
