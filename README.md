@@ -47,7 +47,7 @@ The training data can be [found here](https://github.com/epakhomov/capstone/tree
 
 Data was acquired through the publicly available lists of phishing and legitimate websites by Grega Vrbančič and others, from which the features presented in the datasets were extracted by the authors. They published the details of data collection [here](https://www.sciencedirect.com/science/article/pii/S2352340920313202) and published the datasets on Github [here](https://github.com/GregaVrbancic/Phishing-Dataset).
 
-The entire dataset was devided into the following sections:
+The entire dataset was divided into the following sections:
 - Dataset attributes based on URL
 - Dataset attributes based on Domain URL
 - Dataset attributes based on URL directory
@@ -61,7 +61,7 @@ This division can be illustrated with Figure 1.
     
 ### EDA
 
-Due to the nature of the data and the business problem, there isn't much EDA that can be performed for this dataset. There are no business value in understanding relationships between number of question marks and number of backslashs in the data, for example. I'm providing this assessment as a certified (CISSP) domain expert with 10+ experience in cybersecurity. 
+Due to the nature of the data and the business problem, there isn't much EDA that can be performed for this dataset. There are no business value in understanding relationships between number of question marks and number of backslashes in the data, for example. I'm providing this assessment as a certified (CISSP) domain expert with 10+ experience in cybersecurity. 
 
 With that said, it's clear that all 112 features are not required to build a model. As in a car, for example, not all car features and mechanisms have any impact on the maximum speed. Not all features of an url have any impact on the url being malicious or not.
 
