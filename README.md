@@ -128,7 +128,7 @@ Random Forest and XGBoost were the top models.
 
 ### Feature importance
 
-SHAP values were used to calculated feature importance:
+SHAP values were used to calculated feature importance. The following plot depicts feature importance for class 1 (is phishing):
 
 <img src="/images/06.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
