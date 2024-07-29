@@ -100,8 +100,7 @@ For this problem, a false positive will be observed when a model labels a normal
 
 As you can see from the image, all models performed well, above 0.9 for both recall and ROC AUC scores. Random Forest and XGBoost performed best of all and got very close scores.
 
-<img src="/images/02.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
-
+<img src="/images/02.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
 
 ## Executive summary
