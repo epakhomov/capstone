@@ -20,12 +20,11 @@ The accompanying Jupyter notebook can be [found here](https://github.com/epakhom
 
 ## Business Understanding
 
-The objective of this project is to build a machine learning model what would correctly classify an url into two classes: 1) normal url 2) phishing url. An url can belong to only one class. The training data can be [found here](https://github.com/epakhomov/capstone/tree/main/data/dataset_full.csv).
-
+Despite the fact that phishing is an ancient and a very straightforward attack, phishing attacks accounted for 36% of all US data breaches in 2023. 94% of firms are hit by phishing attacks in 2023. A lot of companies and organizations still perform phishing simulation exercises with employees today. Therefore, there is a need to create an engine that would correctly identify phishing (malicious) url as such and vice versa. 
 
 ### The business objective 
 
-Despite the fact that phishing is an ancient and a very straightforward attack, phishing attacks accounted for 36% of all US data breaches in 2023. 94% of firms are hit by phishing attacks in 2023. A lot of companies and organizations still perform phishing simulation exercises with employees today. Therefore, there is a need to create an engine that would correctly identify phishing (malicious) url as such and vice versa. 
+The objective of this project is to build a machine learning model what would correctly classify an url into two classes: 1) normal url 2) phishing url. An url can belong to only one class. The training data can be [found here](https://github.com/epakhomov/capstone/tree/main/data/dataset_full.csv).
 
 ## Data Understanding
 
