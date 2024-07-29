@@ -13,6 +13,7 @@
         - [Models](#models)
         - [Models evaluation metrics](#models-evaluation-metrics)
     - [Evaluation](#evaluation)
+        - [Evaluation of models with the default data](#evaluation-of-models-with-the-default-data)
     - [Executive summary](#executive-summary)
     - [Next steps](#next-steps)
 
@@ -30,7 +31,7 @@ Despite the fact that phishing is an ancient and a very straightforward attack, 
 
 There are **two business** objectives for this project:  
 1.The first objective is to build a machine learning model what would correctly classify an url into two classes: a) normal url b) phishing url. An url can belong to only one class.   
-2.The model should be relatively light so it could be deployed locally on the target machines as well. 
+2.The model should be relatively light so it could be deployed locally on target machines as well. 
 
 The model would be available for security vendors who would like to add or improve phishing detecting capabilities.
 
@@ -77,6 +78,8 @@ The dataset was reduced using the following techniques:
 -Recursive feature elimination  
 -VarianceThreshold selector
 
+Resulting dataset was used in the modeling as well as the original dataset.
+
 ### Models
 
 The following models were used:  
@@ -87,12 +90,19 @@ The following models were used:
 -Random Forest  
 -XGBoost  
 
-
 ### Models evaluation metrics
 
 For this problem, a false positive will be observed when a model labels a normal url as malicious. A false negative will be observed when a model labels a malicious url as normal. False negatives are more dangerous as a user will trust a malicious site. Therefore, we will be using the recall score.
 
 ## Evaluation
+
+### Evaluation of models with the default data
+
+As you can see from the image, all models performed well, above 0.9 for both recall and ROC AUC scores. Random Forest and XGBoost performed best of all and got very close scores.
+
+<img src="/images/02.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
+
+
 
 ## Executive summary
 
