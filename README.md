@@ -14,6 +14,7 @@
         - [Models evaluation metrics](#models-evaluation-metrics)
     - [Evaluation](#evaluation)
         - [Evaluation of models with the default data](#evaluation-of-models-with-the-default-data)
+        - [Comparison of models train with default data and PCA](#comparison-of-models-train-with-default-data-and-pca)
     - [Executive summary](#executive-summary)
     - [Next steps](#next-steps)
 
@@ -63,7 +64,7 @@ With that said, it's clear that all 112 features are not required to build a mod
 
 It turns out that the domain section has near zero mean variance which might indicate its less importance as can be seen on Figure 2.
 
-<img src="/images/01.png" alt="Fig.2" class="center" style="width:600px;height:auto;">
+<img src="/images/01.png" alt="Fig.2" class="center" style="width:800px;height:auto;">
 
 ## Data Preparation
 
@@ -102,6 +103,11 @@ As you can see from the image, all models performed well, above 0.9 for both rec
 
 <img src="/images/02.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
+### Comparison of models train with default data and PCA
+
+Most of the model scored worse with the PCA components as compared with default data:
+
+<img src="/images/03.png" alt="Fig.3" class="center" style="width:500px;height:auto;">
 
 ## Executive summary
 
