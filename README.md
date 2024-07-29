@@ -27,7 +27,7 @@ This README file provides a summary of findings for a Capstone project: A machin
 
 The accompanying Jupyter notebook can be [found here](https://github.com/epakhomov/capstone/blob/main/scr/DataSet1_3.ipynb). 
 
-<img src="/images/07.png" alt="Fig.1" class="center" style="width:600px;height:auto;">
+<img src="/images/07.png" alt="Fig.1" class="center" style="width:600px;height:600;">
 
 ## Business Understanding
 
