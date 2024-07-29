@@ -109,7 +109,7 @@ As you can see from the image, all models performed well, above 0.9 for both rec
 
 ### Comparison of models train with default data and PCA
 
-Most of the model scored worse with the PCA components as compared with default data:
+Most of the models scored worse with the PCA components as compared with default data:
 
 <img src="/images/03.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
 
