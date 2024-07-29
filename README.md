@@ -123,7 +123,7 @@ Overall, all models performed roughly the same across all datasets except for KN
 
 Random Forest and XGBoost were the top models.
 
-<img src="/images/05.png" alt="Fig.3" class="center" style="width:600px;height:auto;">
+<img src="/images/05.png" alt="Fig.3" class="center" style="width:800px;height:auto;">
 
 ## Executive summary
 
