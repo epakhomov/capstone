@@ -141,4 +141,17 @@ Let's discuss top three features:
 
 ## Executive summary
 
+Phishing attacks, despite being a simple form of cyberattack, remain a significant threat, accounting for 36% of all US data breaches in 2023. With 94% of firms affected, there's a clear need for effective tools to identify phishing URLs. This project aims to develop a machine learning model that can accurately distinguish between normal and phishing URLs, and is lightweight enough for local deployment.
+
+Business Objectives:
+
+- Accurate Classification: Develop a model to classify URLs as either normal or phishing with high accuracy.  
+- Deployment Readiness: Ensure the model is light enough for local deployment on various machines.  
+
+To achieve the objectives, we applied different techniques of data reduction, and utilized a number of machine learning models.
+
+All models performed well, achieving various scores above 0.9. Random Forest and XGBoost were the top performers, especially with a reduced dataset of 46 features.
+
+Key features influencing the model included: URL length, domain activation time, and directory length, with longer URLs and shorter domain activation times being strong indicators of phishing URL.
+
 ## Next steps
