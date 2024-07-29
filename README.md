@@ -27,6 +27,8 @@ This README file provides a summary of findings for a Capstone project: A machin
 
 The accompanying Jupyter notebook can be [found here](https://github.com/epakhomov/capstone/blob/main/scr/DataSet1_3.ipynb). 
 
+<img src="/images/07.jpg" alt="Fig.1" class="center" style="width:600px;height:auto;">
+
 ## Business Understanding
 
 Despite the fact that phishing is an ancient and a very straightforward attack, phishing attacks accounted for 36% of all US data breaches in 2023. 94% of firms are hit by phishing attacks in 2023. A lot of companies and organizations still perform phishing simulation exercises with employees today. Therefore, there is a need to create an engine that would correctly identify phishing (malicious) url as such and vice versa. 
