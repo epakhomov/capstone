@@ -85,7 +85,13 @@ The dataset was reduced using the following techniques:
 - Recursive feature elimination  
 - VarianceThreshold selector
 
-Resulting dataset was used in the modeling as well as the original dataset.
+The following datasets were created (aprox. 20,000 sample) each:  
+- The default data was slightly reduced to 97 features by reducing features with 0 variance
+- 36 features dataset by PCA  
+- 46 features dataset by RFE  
+- 40 features dataset by VT with threshold = 0.3  
+
+Resulting datasets were used in the modeling as well as the original dataset.
 
 ### Models
 
