@@ -18,6 +18,7 @@
         - [Comparison of models trained with default data and 46 features selected by RFE](#comparison-of-models-trained-with-default-data-and-46-features-selected-by-rfe)
         - [The best model and the best dataset](#the-best-model-and-the-best-dataset)
         - [Feature importance](#feature-importance)
+    - [Conclusion](#conclusion)
     - [Executive summary](#executive-summary)
     - [Next steps](#next-steps)
 
@@ -146,6 +147,11 @@ Let's discuss top three features:
 - length_url (total number of characters in an url) is the feature that has the most prediction impact on the target. It has both negative and positive impact. From the shap plot, we can say that the longer url, the more chances that it is phishing which intuitevely makes sense as well.  
 - time_domain_activation (Domain activation time in days). Phishing domains have shorter activation times which can be seen on the plot as well: lower values negatively impact prediction of class 1 (is phishing).  
 - directory_length (total number of characters of a directory in an url) typically is correlated with the lenght of url so not surprisingly we see similar behavior of this feature.
+
+## Conclusion
+
+- We were able to achieve objective number one by building a set of models (Random Forest and XGBoost) with a high degree of accuracy (recall score and ROC AUC score): 0.96 recall and ROC AUC score for Random Forest and 0.95 recall and 0.96 ROC AUC for XGBoost.  
+- We were able to achieve the second objective, by reducing the dataset to 46 features with RFE which made the model perform the models even better as compared with the original dataset.
 
 
 ## Executive summary
